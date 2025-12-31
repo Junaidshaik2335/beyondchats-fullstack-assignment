@@ -73,7 +73,7 @@ A clean and responsive React UI to view articles.
 ---
 
 ## 🔹 Project Structure
-
+```
 beyondchats-fullstack-assignment/
 │
 ├── backend/
@@ -93,9 +93,7 @@ beyondchats-fullstack-assignment/
 │ └── package.json
 │
 └── README.md
-
-yaml
-Copy code
+```
 
 ---
 
@@ -130,6 +128,7 @@ Backend runs at:
 `http://localhost:5000`
 
 🔹 Architecture Overview
+
 Scraper → MongoDB
 
 REST APIs → Automation Script
@@ -142,11 +141,28 @@ React frontend consumes backend APIs
 
 
 🔹 Notes
+
 Environment variables are used for all secrets
 
 Code is modular, readable, and documented
 
 Error handling added at each critical step
 
+
+---
+
+## 🔹 Live Demo
+
+Frontend Live URL:  
+`https://beyondchats-fullstack-assignment-dwke-kmkouf74k.vercel.app`
+
+ **Important Note about Live Demo**
+
+- The frontend is deployed on Vercel to demonstrate the UI and data flow.
+- Backend APIs, web scraping logic, database connection, and automation scripts are intentionally designed to run **locally**.
+- This is due to the use of scraping, database access, and API keys (LLM, SERP API), which should not be exposed in a public deployment.
+- Complete local setup instructions for running the backend and automation scripts are provided above.
+
+---
 
 Thank you for reviewing my submission.
